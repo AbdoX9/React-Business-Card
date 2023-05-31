@@ -31,7 +31,7 @@ function App() {
     
      <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Card />} />
+        <Route path='/React-Business-Card' element={<Card />} />
         <Route path='/*' element={<Nofound />} />
       </Routes>
       <GlobalStyle />
